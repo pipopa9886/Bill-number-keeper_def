@@ -1,10 +1,12 @@
 import time
 import re
 
+#番号を追加する関数
 def add_of_file():
     with open("1000_yen.txt","a",encoding="utf-8") as write:
         write.write("{}\n".format(number))
 
+#番号を読み、リストにする
 def read_of_file():
     global line
     with open("1000_yen.txt","r",encoding="utf-8") as check:
