@@ -2,4 +2,27 @@
 
 既存の Bill-number-keeper を関数を使用して、作成+修正
 
-実行するときは、Bill-number-keeper_def.py を実行してください
+## インストール
+cloneかzipをダウンロードして実行します。
+
+pythonのインストール方法はこのサイトがわかりやすいと思います
+https://www.sejuku.net/blog/33294
+
+## いざ実行
+* ①コマンドプロンプト（Windows）やターミナル（Mac,Linux）でインストールしたフォルダ（ディレクトリ）に移動します。
+* ②実行します
+
+ターミナルの動き Linuxの場合
+```
+pipopa@pipopa:~$ cd Download
+↓
+pipopa@pipopa:~/Download$ python3 Bill-number-keeper_def.py
+↓
+このプログラムを・・・
+```
+
+みたいな感じです。
+
+
+## これからの展望
+1000円札は3色ぐらいあるらしいので、区別もしたいな。
