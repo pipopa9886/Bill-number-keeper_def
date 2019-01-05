@@ -4,8 +4,13 @@
 
 ## インストール
 cloneかzipをダウンロードして実行します。
+```
+pipopa@pipopa:~$ cd Download
+↓
+pipopa@pipopa:~$ git clone https://github.com/pipopa9886/Bill-number-keeper_def.git
+```
 
-pythonのインストール方法はこのサイトがわかりやすいと思います
+まだpythonの実行環境がない場合はインストールが必要です。pythonのインストール方法はこのサイトがわかりやすいと思います
 https://www.sejuku.net/blog/33294
 
 ## いざ実行
