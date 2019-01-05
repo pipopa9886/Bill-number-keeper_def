@@ -1,6 +1,6 @@
 # Bill-number-keeper_def
 
-既存の Bill-number-keeper を関数を使用して、作成+修正
+既存の [Bill-number-keeper](https://github.com/pipopa9886/Bill-number-keeper) を関数を使用して、作成+修正
 
 ## インストール
 cloneかzipをダウンロードして実行します。
