@@ -12,6 +12,11 @@ def read_of_file():
     with open("1000_yen.txt","r",encoding="utf-8") as check:
         line=[s.strip() for s in check.readlines()]
 
+def view():
+    read_of_file()
+    line.sort()
+    print(line)
+
 def add():
     print("番号を入力")
     print("例:GX563636M 等")
@@ -33,6 +38,14 @@ def add():
 
 def run():
     print("このプログラムを終えたいときは、CTRL + C もしくは CTRL + Z を押してください")
-    while True:
-        add()
-        time.sleep(0.5)
+    print("追加したいですか？　閲覧したいですか？")
+    print("追加:0, 閲覧:1")
+    dochira=int(input())
+    if dochira==0:
+        while True:
+            add()
+            time.sleep(0.5)
+    elif dochira==1:
+        view()
+    else:
+        pass
