@@ -11,7 +11,7 @@ def read_of_file():
     global line
     with open("1000_yen.txt","r",encoding="utf-8") as check:
         line=[s.strip() for s in check.readlines()]
-
+#閲覧の関数
 def view():
     read_of_file()
     line.sort()
