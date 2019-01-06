@@ -28,7 +28,8 @@ pipopa@pipopa:~/Download$ python3 Bill-number-keeper_def.py
 このプログラムを・・・
 ```
 
-みたいな感じです。
+終わりたいときは、 ```CTRL + C``` または ```CTRL + Z``` を押してください
+
 
 
 ## これからの展望
